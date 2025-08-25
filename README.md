@@ -64,7 +64,7 @@ pnpm gen:runtime && pnpm gen:manifest && pnpm build
 - 根目录：`/`
 - 输出目录：`out`
 - 安装命令：`pnpm install --frozen-lockfile`
-- 编译命令：`pnpm gen:runtime && pnpm gen:manifest && pnpm build`
+- 编译命令：`pnpm install && pnpm gen:runtime && pnpm gen:manifest && pnpm build`
 
 注意事项：
 - 不要使用 `npx next export -o out`（部分环境该参数会报 "unknown option -o"）
